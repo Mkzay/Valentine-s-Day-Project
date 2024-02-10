@@ -5,7 +5,6 @@ const Home = () => {
     <div className="relative h-screen">
       <video
         autoPlay
-        loop
         muted
         className="absolute inset-0 w-full h-full object-cover"
       >
