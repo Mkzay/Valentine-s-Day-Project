@@ -13,7 +13,7 @@ const Home = () => {
         Your browser does not support the video tag.
       </video>
 
-      <div className="absolute inset-0 flex items-center justify-center">
+      <div className="absolute -top-10 inset-0 flex items-center justify-center">
         <Content />
       </div>
     </div>
