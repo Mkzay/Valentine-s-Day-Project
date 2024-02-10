@@ -2,8 +2,20 @@ import Content from "../Components/Content";
 
 const Home = () => {
   return (
-    <div className="flex items-center justify-center py-10 bg-sky-400 bg-[url] h-screen md:py-8 md:px-10">
-      <Content />
+    <div className="relative h-screen">
+      <video
+        autoPlay
+        loop
+        muted
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="valentine.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <div className="absolute inset-0 flex items-center justify-center">
+        <Content />
+      </div>
     </div>
   );
 };
